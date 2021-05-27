@@ -19,5 +19,10 @@ completion network to realistically complete a diversity of images.
 ## Steps to run
 1. Make sure that the dependecies are already intalled on your system.
    Once the required libraries are installed open the current folder and and run app.py
-2. Drag and drop the image on which you want to perform inpainting
-3. Click on Save button
+2. Go to the browser and enter url http://localhost:5000
+3. Choose the image on which you want to perform inpainting
+4. Click on Save button
+
+## Snapshots
+! [landing page] (/images/frontend.jpeg)
+! [main ui] (/images/backend.jpeg)
