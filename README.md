@@ -24,5 +24,5 @@ completion network to realistically complete a diversity of images.
 4. Click on Save button
 
 ## Snapshots
-! [landing page] (/images/frontend.jpeg)
-! [main ui] (/images/backend.jpeg)
+![landing page](/images/frontend.jpg)
+![main ui](/images/back.jpg)
