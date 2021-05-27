@@ -26,3 +26,4 @@ completion network to realistically complete a diversity of images.
 ## Snapshots
 ![landing page](/images/frontend.jpg)
 ![main ui](/images/back.jpg)
+![demo](/images/demo.png)
