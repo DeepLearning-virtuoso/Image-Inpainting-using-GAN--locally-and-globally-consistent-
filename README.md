@@ -28,4 +28,4 @@ completion network to realistically complete a diversity of images.
 
 ![main ui](/images/back.jpg)
 
-![demo](/images/demo.png)
+![demo]/images/demo.png)
