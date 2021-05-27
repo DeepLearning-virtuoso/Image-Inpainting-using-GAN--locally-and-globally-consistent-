@@ -1,0 +1,43 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+body {
+  background-image: url(/static/images/chess.png);
+  background-repeat: repeat;
+}
+
+.header
+{
+  width: 100%;
+  height: 55px;
+  background-color: #F3C5FF;
+  /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+}
+
+.nav{
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#background{
+  margin: auto;
+  width:1070px;
+  height:620px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 10;
+}
+#canvas{
+  width: 100%;
+  height: 100%;
+}
+
+.rectangle {
+  background-color: #FFFFFF;
+  position: absolute;
+  z-index: 15;
+}

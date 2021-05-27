@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <meta HTTP-EQUIV="EXPIRES" CONTENT="Mon, 22 Jul 2002 11:12:01 GMT">
+    <link rel="stylesheet" href="{{ url_for('static',filename = 'v2/css/bootstrap.min.css' )}}">
+
+    <link rel="stylesheet" href="/static/css/output.css">
+  </head>
+  <body>
+    
+    <!-- <p class="mine">Move slider to see changes</p> -->
+    <div class="wrapper">
+      <div class="images">
+        <div class="img-1"></div>
+        <div class="img-2"></div>
+        
+      </div>
+      <div class="slider">
+        <div class="drag-line">
+          <span></span>
+        </div>
+        <input type="range" min="0" max="100" value="50">
+      </div>
+      <a class="btn btn-lg btn-warning m-3" href="/brush">Back</a>
+    </div>
+
+    <script>
+      const slider = document.querySelector(".slider input");
+      const img = document.querySelector(".images .img-2");
+      const dragLine = document.querySelector(".slider .drag-line");
+      slider.oninput = ()=>{
+        let sliderVal = slider.value;
+        dragLine.style.left = sliderVal + "%";
+        img.style.width = sliderVal + "%";
+      }
+      
+    </script>
+<script>
+  document.querySelector('.img-1').style.backgroundImage = "url({{url_for('static', filename='images/'+img_name)}})";             
+  document.querySelector('.img-2').style.backgroundImage = "url({{url_for('static', filename='images/o'+img_name)}})";             
+  //location.reload(true)
+</script>
+  </body>
+</html>

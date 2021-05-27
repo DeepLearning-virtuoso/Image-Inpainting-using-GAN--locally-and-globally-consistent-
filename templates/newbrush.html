@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>Applay Mask</title>
+      <link rel="stylesheet" href="/static/css/newbrush.css">  
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   </head>
+<body>
+
+  <div class="header mt-3 mb-3">
+
+    <div class="d-flex justify-content-start " >
+     <div class="d-flex align-items-end">
+ 
+       <button type="button" id ="save" class="btn btn-success nav" style="width: 80px; padding-left: 20px;font-size: 20px;" ><strong>Save</strong></button>
+       
+       <span style="font-size: 18px;">Size</span>
+       <input type="range" id="pen-size" min="1" max="50">
+ 
+       <input type="radio" class="nav" id="check" style="margin-right: 8px !important;" value="set">
+       <span class="nav" style="margin-left: 0px !important;">&#9999;Select Brush</span>
+ 
+ 
+       <input type="file" id="load" name="avatar">
+   
+ 
+     </div>
+       </div>
+   </div>
+    
+  <div class="app">
+    <div id="background" >
+    <div id="canvas" style="border: 2px dashed black; border-radius: 5px;"></canvas>
+  </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+ 
+  <script src="/static/js/newbrush.js"></script>
+  
+</body>
+ </html>
+ 
